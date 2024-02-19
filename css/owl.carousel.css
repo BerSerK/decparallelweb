@@ -171,3 +171,11 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+.video-caption, .image-caption {  
+  position: relative;  
+  top: 10px; /* 调整这个值以改变标题和描述与上方内容的间距 */  
+  left: 0;  
+  width: 100%; /* 确保标题和描述占据整个内容区块的宽度 */  
+  text-align: center; /* 保持文字居中 */  
+}
