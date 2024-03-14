@@ -1,0 +1,16 @@
+# Comments are indicated by a hashtag and are ignored by robots
+User-agent: *          # Applies to all web robots
+Disallow: /private/    # Blocks access to the /private/ directory
+Disallow: /tmp/        # Blocks access to the /tmp/ directory
+Disallow: /backup/     # Blocks access to the /backup/ directory
+
+User-agent: Googlebot  # Applies only to Google's web robot
+Disallow: /no-google/  # Blocks Googlebot from accessing /no-google/
+
+# Allow directive is used to explicitly allow access to a subdirectory in a disallowed directory
+User-agent: Bingbot
+Disallow: /private/
+Allow: /private/public/
+
+# Sitemap can also be specified in robots.txt
+Sitemap: https://www.decparallel.com/sitemap.xml

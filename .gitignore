@@ -1,4 +1,4 @@
 wordpress
 **/.DS_Store
 .DS_Store
-report*.html
+tmp/*
