@@ -73,29 +73,32 @@
 		
 		<!-- Start Feature Area -->
 		<!-- Start Video Area -->
-
 		<section class="generic-banner pt-40 pb-40">
 			<div class="container">	
-				<div class="row align-items-center justify-content-center section-top-border">
-					<h2>预约下次直播: 20240319 星期二晚七点半</h2><br>
-				</div>
-				<div class="row align-items-center justify-content-center">
-					<img class="img-fluid" style="height: 640px" src="img2/system_risk.jpg" alt="直播预约">
+				<div class="row align-items-center justify-content-center section-top-border width: 320px">
+					<div class="image-caption">
+						<h2  style="padding-left: 20px; padding-right: 20px; padding-bottom:20px;">预约下次直播: 20240319 星期二晚七点半</h2>
+					</div>
+					<img class="img-fluid" style="height: 480px" src="img2/system_risk.jpg" alt="直播预约">
 				</div>
 			
 				<div class="row align-items-center justify-content-center section-top-border">
 					<div class="video-content">  
-						<iframe src="//player.bilibili.com/player.html?aid=1050875289&bvid=BV1VH4y1J7vE&cid=1443142858&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height=630 width=365></iframe>  
 						<div class="video-caption">  
-								<h2 text-align:center>《量化投资漫谈》直播回放</h2>  
+							<h2 style="text-align:center; padding-bottom:20px;">《量化投资漫谈》直播回放</h2>  
 						</div>  
+						<div class="spacer" style="width: auto; height: 20px; display: inline-block;"></div> <!-- 空白分隔符 -->
+						<iframe src="//player.bilibili.com/player.html?aid=1050875289&bvid=BV1VH4y1J7vE&cid=1443142858&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height=630 width=365></iframe>  
 					</div>
+					
 					<div class="spacer" style="width: 120px; height: auto; display: inline-block;"></div> <!-- 空白分隔符 -->
+
 					<div class="video-content" text-align=center>  
+						<div class="video-caption">  
+							<h2 style="text-align:center; padding-bottom:20px;">《期货与CTA》直播回放</h2>  
+						</div>
+						<div class="spacer" style="width: auto; height: 20px; display: inline-block;"></div> <!-- 空白分隔符 -->
 						<iframe src="//player.bilibili.com/player.html?aid=1851019113&bvid=BV1WW421A79z&cid=1450898836&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height=630 width=365> </iframe>
-						<div class="image-caption">  
-							<h2 text-align:center>《期货与CTA》直播回放</h2>  
-						</div>  
 					</div>
 				</div>
 				<style>  
@@ -113,6 +116,9 @@
 				<div class="row align-items-center justify-content-center"><a href="weixin_group.html">
 					<h3>《Quant Insights Collective》</h3>
 				</a></div>
+				<div class="spacer" style="width: 120px; height: auto; display: inline-block;"></div> <!-- 空白分隔符 -->
+				<!-- add a vertical spacer, if visted on mobile. -->
+				<div class="spacer" st></div>
 				<style>  
 					.row a h2 {  
 							color: #db7f34; /* 这是一个醒目的蓝色，但不过于鲜艳 */  
@@ -121,16 +127,31 @@
 					.row a h2:hover {
 							color: #b93f29; /* 鼠标悬停时的颜色变化，增加交互性 */  
 					}  
-				</style>  
+				</style>
+
+				<!-- 将精选内容内嵌到本页. -->
 				<div class="row align-items-center justify-content-center">
-					<a href="weixin_selected.html">
-						<h2>时炜观察精选文章</h2>
-					</a>
+					<embed src="posts.html" width="480" height="480">
 				</div>
+
+				<div class="spacer" style="width: 120px; height: auto; display: inline-block;"></div> <!-- 空白分隔符 -->
+
 				<div class="row align-items-center justify-content-center">
-					<a href="weixin_quant.html">
-						<h2>时炜观察“量化投资”相关文章</h2>
-					</a>
+					<div class="inner-padding" style="padding-left: 20px; padding-right: 20px;">
+						<a href="weixin_selected.html">
+							<h2  style="padding-left: 20px; padding-right: 20px; padding-bottom:20px;">点此查看《时炜观察》全部100+精选文章</h2>
+						</a>
+					</div>
+				</div>
+
+				<div class="spacer" style="width: 120px; height: auto; display: inline-block;"></div> <!-- 空白分隔符 -->
+
+				<div class="row align-items-center justify-content-center">
+					<div class="inner-padding" style="padding-left: 20px; padding-right: 20px;">
+						<a href="weixin_quant.html">
+							<h2  style="padding-left: 20px; padding-right: 20px; padding-bottom:20px;">点此查看时炜观察“量化投资”相关文章精选</h2>
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -207,8 +228,6 @@
 			</div>
 		</section>
 		<!-- End about Area -->
-
-
 
 		<!-- Strat Footer Area -->
 		<footer class="section-gap">
